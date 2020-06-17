@@ -4,6 +4,7 @@ html {
   body {
     background-color: rgb(30 30 35);
     color: white;
+    margin: 0px;
   }
   @media only screen and (max-width: 600px) {
     body {
