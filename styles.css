@@ -24,6 +24,9 @@ html {
   .nav-item {
     padding: 0px 10px;
   }
+  .navigation:hover {
+    background-color: rgb(40 40 45);
+  }
   a:link {
     color: grey;
     text-decoration: none;
@@ -37,7 +40,7 @@ html {
     color: white;
     text-decoration: none;
     transition: 0.5s;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
   a:active {
     color: grey;
