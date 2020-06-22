@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    background-color: rgb(30 30 35);
-    color: white;
+    background-color: white;
+    color: #757575;
     margin: 0px;
   }
   @media only screen and (max-width: 600px) {
@@ -14,7 +14,7 @@ html {
   #navbar {
     display: flex;
     color:white;
-    background-color: rgb(50 50 55);
+    background-color: #009688;
     justify-content: center;
     width: 100%;
     position: fixed;
@@ -25,25 +25,25 @@ html {
     padding: 0px 10px;
   }
   .navigation:hover {
-    background-color: rgb(40 40 45);
+    background-color: rgba(0, 0, 0, .1);
   }
   a:link {
-    color: grey;
+    color: white;
     text-decoration: none;
     transition: 0.5s;
   }
   a:visited {
-    color: grey;
+    color: white;
     text-decoration: none;
   }
   a:hover {
     color: white;
     text-decoration: none;
     transition: 0.5s;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;         <---Removing for now. Might add back later*/
   }
   a:active {
-    color: grey;
+    color: white;
     text-decoration: none;
   }
   
@@ -56,13 +56,14 @@ html {
     align-items: center;
   }
   #projects {
-    background-color: rgb(100 100 135);
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100vh;
     flex-direction: column;
     align-items: center;
+    background-color: #e1e1e1;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   }
   
   #profile-link {
@@ -72,5 +73,19 @@ html {
     width: 100%;
     height: 100vh;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .white-section-box {
+
+  }
+
+  .project-tile {
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
