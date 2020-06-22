@@ -60,11 +60,8 @@ html {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    flex-direction: row;
-    align-items: center;
     background-color: #e1e1e1;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    flex-wrap: wrap;
   }
 
   #projects a:link {
@@ -90,7 +87,12 @@ html {
     align-items: center;
   }
 
-  .white-section-box {
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 
   }
 
@@ -106,7 +108,7 @@ html {
     transition: 0.5s;
   }
   .project-tile:hover {
-    background-color: #ccc;
+    background-color: #eee;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     transition: 0.5s;
   }
