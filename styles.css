@@ -1,126 +1,127 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+  color: #454545;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 600px) {
   body {
-    background-color: white;
-    color: #454545;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    background-color: lightblue;
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-  #navbar {
-    display: flex;
-    color:white;
-    background-color: #009688;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  .nav-item {
-    padding: 0px 10px;
-  }
-  .navigation:hover {
-    background-color: rgba(0, 0, 0, .1);
-  }
-  a:link {
-    color: white;
-    text-decoration: none;
-    transition: 0.5s;
-  }
-  a:visited {
-    color: white;
-    text-decoration: none;
-  }
-  a:hover {
-    color: white;
-    text-decoration: none;
-    transition: 0.5s;
-    /*letter-spacing: 2px;         <---Removing for now. Might add back later*/
-  }
-  a:active {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #welcome-section {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-  }
-  #projects {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #e1e1e1;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-  }
+}
+#navbar {
+  display: flex;
+  color:white;
+  background-color: #009688;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.nav-item {
+  padding: 0px 10px;
+}
+.navigation:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
 
-  #projects a:link {
-    color: #454545;
-  }
-  #projects a:visited {
-    color: #454545;
-  }
-  #projects a:hover {
-    color: #454545;
-  }
-  #projects a:active {
-    color: #454545;
-  }
-  
-  #profile-link-style {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-  }
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+#projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1e1e1;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
 
-  .projects {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+#projects a:link {
+  color: #454545;
+}
+#projects a:visited {
+  color: #454545;
+}
+#projects a:hover {
+  color: #454545;
+}
+#projects a:active {
+  color: #454545;
+}
 
-  }
+#profile-link-style {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .project-tile {
-    background-color: white;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 10px;
-    transition: .5px;
-    border: 1px solid white;
-  }
-  .project-tile:hover {
-    transition: .5s;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
-    border: 1px solid #009688;
-  }
-  i {
-    color: #454545;
-    border-radius: 100%;
-    transition: .5s;
-    padding: 10px;
-  }
-  
-  i:hover {
-    color: #009688;
-    transition: .5s;
-  }
-  .large-project-div {
-    display: flex;
-  }
-  
+.projects {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.project-tile {
+background-color: white;
+border-radius: 10px;
+padding: 30px;
+margin: 10px;
+transition: .5px;
+border: 1px solid white;
+}
+.project-tile:hover {
+transition: .5s;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+border: 1px solid #009688;
+}
+i {
+color: #454545;
+border-radius: 100%;
+transition: .5s;
+padding: 10px;
+}
+
+i:hover {
+color: #009688;
+transition: .5s;
+}
+
+
+.large-project-div {
+display: flex;
+}
