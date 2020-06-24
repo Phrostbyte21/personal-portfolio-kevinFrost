@@ -123,3 +123,20 @@ html {
     color: #009688;
     transition: .5s;
   }
+  .large-project-div {
+    display: flex;
+  }
+  .project-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    transition: .5px;
+    border: 1px solid white;
+  }
+  
+  .project-item:hover {
+    transition: .5s;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    border: 1px solid #009688;
+  }
