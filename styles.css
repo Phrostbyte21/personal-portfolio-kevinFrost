@@ -88,14 +88,6 @@ a:active {
   align-items: center;
 }
 
-.projects {
-  display: inline-block;
-  background-color: white;
-  border-radius: 10px;
-  height: 300px;
-  width: 300px;
-}
-
 .project-tile {
 background-color: white;
 border-radius: 10px;
@@ -103,6 +95,8 @@ padding: 30px;
 margin: 10px;
 transition: .5s;
 border: 1px solid white;
+height: 300px;
+width: 300px;
 }
 .project-tile:hover {
 transition: .5s;
