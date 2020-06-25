@@ -23,7 +23,7 @@ body {
   left: 0;
 }
 .nav-item {
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 .navigation:hover {
   background-color: rgba(0, 0, 0, .1);
@@ -92,7 +92,7 @@ a:active {
   display: inline-block;
   background-color: white;
   border-radius: 10px;
-  height: 200px;
+  height: 300px;
   width: 300px;
 }
 
