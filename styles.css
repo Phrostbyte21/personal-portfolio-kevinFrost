@@ -110,12 +110,6 @@ a:active {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
   background-position: 10% 80%;
 }
-.SMSB:hover {
-  background-image: url("https://i.imgur.com/fgefah2.gif");
-}
-.APF:hover {
-  background-image: url("https://i.imgur.com/HxP561l.gif");
-}
 i {
   color: #454545;
   border-radius: 100%;
