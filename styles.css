@@ -100,10 +100,10 @@ a:active {
   width: 230px;
 }
 .SMSB {
-  background-image: url("https://i.imgur.com/hMa10ew.png");
+  background-image: url("https://i.imgur.com/BAN4fk0.gif");
 }
 .APF {
-  background-image: url("https://i.imgur.com/5x6yJyn.png");
+  background-image: url("https://i.imgur.com/43eKkc1.gif");
 }
 .project-tile:hover {
   transition: 0.2s;
@@ -111,10 +111,10 @@ a:active {
   background-position: 10% 80%;
 }
 .SMSB:hover {
-  background-image: url("https://i.imgur.com/xUfG59R.png");
+  background-image: url("https://i.imgur.com/fgefah2.gif");
 }
 .APF:hover {
-  background-image: url("https://i.imgur.com/3gWLNiX.png");
+  background-image: url("https://i.imgur.com/HxP561l.gif");
 }
 i {
   color: #454545;
