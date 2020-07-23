@@ -30,16 +30,12 @@ fetch(url)
         swpeople.map(person =>{
             console.log(people.name)
             let li = createNode('li'),
-                img = createNode('img'),
                 span = createNode('span');
 
-            img.src = people.homeworld;
             span.innerHTML = `${people.name}`;
 
             append(li, img);
             append(li, span);
             append(ul, li);
         })
-
-        
-})
+    })
