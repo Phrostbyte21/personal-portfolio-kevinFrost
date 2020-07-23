@@ -16,18 +16,18 @@ function append(parent, el) {
 //const swurl = "https://swapi.dev/api/people/"
 
 //baseball Assignment Data
-const url = 'https://swapi.dev/api/people/?results=30';
-const ul = document.getElementById('characters');
+const url = './people.js';
+const ul = document.getElementById('people');
 
-let swcharacters;
+let swpeople;
 
 
 fetch(url)
     .then(resp => resp.json()
     .then(data => {
-        swcharacters = data.results;
+        swpeople = data.results;
 
-        swcharacters.map(person =>{
+        swpeople.map(person =>{
             console.log(people.name)
             let li = createNode('li'),
                 img = createNode('img'),
