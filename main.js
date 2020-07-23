@@ -39,3 +39,4 @@ fetch(url)
             append(ul, li);
         })
     })
+)
