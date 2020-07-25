@@ -25,7 +25,7 @@ first(people).map(person => {
     span.innerText = `${person.name} ${person.gender}`;
 
     append(li, span);
-    append(ul, li);
+    append(peopleul, li);
 })
 
 first(planets).map(planet => {
@@ -35,7 +35,7 @@ first(planets).map(planet => {
         span.innerText = `${planet.name} ${planet.diameter}`;
     
         append(li, span);
-        append(ul, li);
+        append(planetsul, li);
     })
 
 //Baseball Project Code
