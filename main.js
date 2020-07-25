@@ -1,5 +1,6 @@
 //Star Wars Addition
 import { people } from './people.js'
+import { planets } from './planets.js'
 
 function createNode(element) {
     return document.createElement(element);
@@ -14,6 +15,7 @@ function first(array, count = 10) {
 }
 
 const ul = document.getElementById('person');
+const ul = document.getElementById('planet');
 
 first(people).map(person => {
 // people.slice(0, 9).map(person => {
@@ -25,9 +27,16 @@ first(people).map(person => {
     append(li, span);
     append(ul, li);
 })
-console.log(people.length);
-console.log(first(people).length);
 
+first(planets).map(planet => {
+        let li = createNode('li'),
+            span = createNode('span');
+    
+        span.innerText = `${planet.name} ${planet.diameter}`;
+    
+        append(li, span);
+        append(ul, li);
+    })
 
 //Baseball Project Code
 /*
