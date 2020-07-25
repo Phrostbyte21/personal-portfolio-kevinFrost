@@ -2,18 +2,28 @@
 import { people } from './people.js'
 //console.log(people)
 
+function createNode(element) {
+    return document.createElement(element);
+}
+
+function append(parent, el) {
+    return parent.appendChild(el);
+}
+
+const ul = document.getElementById('person');
+
+let people;
+
 people.map(person => {
-    console.log(person)
+    console.log(people)
+    let li = createNode('li'),
+        span = createNode('span');
+
+    span.innerHTML = `${name}`;
+
+    append(li, span);
+    append(ul, li);
 })
-
-const swpeople = 'https://swapi.dev/api/people/';
-
-fetch(swpeople)
-    .then(resp => resp.json())
-    .then(data => {
-        console.log(data)
-    })
-
 
 
 
