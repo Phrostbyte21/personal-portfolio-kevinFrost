@@ -14,8 +14,8 @@ function first(array, count = 10) {
     return array.slice(0, count);
 }
 
-const ul = document.getElementById('person');
-const ul = document.getElementById('planet');
+const peopleul = document.getElementById('person');
+const planetsul = document.getElementById('planet');
 
 first(people).map(person => {
 // people.slice(0, 9).map(person => {
