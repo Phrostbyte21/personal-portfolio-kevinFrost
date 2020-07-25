@@ -2,7 +2,7 @@
 import { people } from './people.js'
 //console.log(people)
 
-films.map(person => {
+people.map(person => {
     console.log(person)
 })
 
