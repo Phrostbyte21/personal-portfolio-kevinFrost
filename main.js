@@ -26,6 +26,7 @@ first(people).map(person => {
     append(ul, li);
 })
 console.log(people.length);
+console.log(first(people).length);
 
 
 //Baseball Project Code
