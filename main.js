@@ -12,11 +12,11 @@ function append(parent, el) {
 const ul = document.getElementById('person');
 
 people.map(person => {
-    console.log(people)
+    console.log(person)
     let li = createNode('li'),
         span = createNode('span');
 
-    span.innerHTML = `${name}`;
+    span.innerText = `${person.name}`;
 
     append(li, span);
     append(ul, li);
