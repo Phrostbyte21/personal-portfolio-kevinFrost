@@ -1,4 +1,63 @@
-import { people } from './people.js'
+//Star Wars Addition
+/*import { people } from './people.js'
+console.log(people)
+
+const swpeople = 'https://swapi.dev/api/people/';
+
+fetch(swpeople)
+    .then(resp => resp.json())
+    .then(data => {
+        console.log(data)
+    })
+    */
+
+//Baseball Project Code
+function createNode(element) {
+    return document.createElement(element);
+}
+
+function append(parent, el) {
+    return parent.appendChild(el);
+}
+
+const url = 'https://randomuser.me/api/?results=30';
+
+let authors;
+
+fetch(url)
+    .then(resp => resp.json())
+    .then(data => {
+        authors = data.results;
+        console.log(authors)
+
+        authors.map(author => {
+            console.log(author.name.last)
+        })
+
+        let li = createNode('li'),
+            img = createNode('img'),
+            span = createNode('span');
+
+        img.src = ()
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import { people } from './people.js'
 import { planets } from './planets.js'
 
 people.map(people =>{
@@ -40,3 +99,4 @@ fetch(url)
         })
     })
 )
+*/
