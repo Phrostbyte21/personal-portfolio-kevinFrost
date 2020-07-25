@@ -1,6 +1,6 @@
 //Star Wars Addition
 import { people } from './people.js'
-console.log(people)
+//console.log(people)
 
 films.map(person => {
     console.log(person)
