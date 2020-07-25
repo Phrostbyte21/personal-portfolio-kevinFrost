@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/a19696c91b.js" crossorigin="anonymous"></script>
-<link src="/main.js">
 
 <header>
   <div id="navbar">
@@ -20,6 +19,11 @@
     <a href="#social-section" class="navigation">
       <div>
         <h1 class="nav-item">Social</h1>
+      </div>
+    </a>
+    <a href="#starwars-section" class="navigation">
+      <div>
+        <h1 class="nav-item">Star Wars</h1>
       </div>
     </a>
   </div>
@@ -60,13 +64,20 @@
       <a href="https://www.instagram.com/kevinfrost91/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
     </div>
   </div>
-  <div>
-    <script type="module" src="main.js"></script>
-    <script type="module "src="people.js"></script>
-    <script type="module "src="plantes.js"></script>
-    <h1>Star Wars Stuff</h1>
-    <ul id='person'></ul>
-    <ul id='planet'></ul>
+
+  <a name="starwars-section"></a>
+  <div id="starwars">
+    <h1>Top 10 Star Wars People and Planets</h1>
+    <div class="large-project-div">
+      <div class="testing">
+        <ul class = "test" id='person'></ul>
+      </div>
+      <div class="testing">
+        <ul class = "test" id='person'></ul>
+      </div>
+    </div>
   </div>
-  
 </body>
+<script type="module" src="main.js"></script>
+<!-- <script type="module "src="people.js"></script>
+<script type="module "src="plantes.js"></script> -->
