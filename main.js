@@ -37,8 +37,6 @@ fetch(url)
         let li = createNode('li'),
             img = createNode('img'),
             span = createNode('span');
-
-        img.src = ()
     })
 
 
