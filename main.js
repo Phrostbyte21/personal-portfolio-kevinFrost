@@ -1,6 +1,5 @@
 //Star Wars Addition
 import { people } from './people.js'
-//console.log(people)
 
 function createNode(element) {
     return document.createElement(element);
@@ -53,17 +52,6 @@ fetch(url)
             img = createNode('img'),
             span = createNode('span');
     })
-
-
-
-
-
-
-
-
-
-
-
 
 
 
