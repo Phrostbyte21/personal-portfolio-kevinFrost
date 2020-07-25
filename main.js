@@ -9,19 +9,23 @@ function append(parent, el) {
     return parent.appendChild(el);
 }
 
+function first(array, count = 10) {
+    return array.slice(0, count - 1);
+}
+
 const ul = document.getElementById('person');
 
-people.map(person => {
-    console.log(person)
+first(people).map(person => {
+// people.slice(0, 9).map(person => {
     let li = createNode('li'),
         span = createNode('span');
 
-    span.innerText = `${person.name}`;
+    span.innerText = `${person.name} ${person.gender}`;
 
     append(li, span);
     append(ul, li);
 })
-
+console.log(people.length);
 
 
 //Baseball Project Code
