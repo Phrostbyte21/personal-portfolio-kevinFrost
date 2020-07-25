@@ -10,7 +10,7 @@ function append(parent, el) {
 }
 
 function first(array, count = 10) {
-    return array.slice(0, count - 1);
+    return array.slice(0, count);
 }
 
 const ul = document.getElementById('person');
