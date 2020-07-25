@@ -12,8 +12,6 @@ function append(parent, el) {
 
 const ul = document.getElementById('person');
 
-let people;
-
 people.map(person => {
     console.log(people)
     let li = createNode('li'),
