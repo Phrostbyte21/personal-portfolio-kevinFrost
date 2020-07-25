@@ -1,6 +1,10 @@
 //Star Wars Addition
-/*import { people } from './people.js'
+import { people } from './people.js'
 console.log(people)
+
+films.map(person => {
+    console.log(person)
+})
 
 const swpeople = 'https://swapi.dev/api/people/';
 
@@ -9,9 +13,12 @@ fetch(swpeople)
     .then(data => {
         console.log(data)
     })
-    */
+
+
+
 
 //Baseball Project Code
+/*
 function createNode(element) {
     return document.createElement(element);
 }
