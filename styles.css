@@ -142,6 +142,16 @@ i:hover {
   width: 100%;
 }
 
+#starwars {
+  background-image: url(&quot;https://i.imgur.com/GJTlhXU.jpeg&quot;);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-color: black;
+    color: white;
+}
+
 .starwars-div {
   display: flex;
   flex-direction: row;
