@@ -66,3 +66,4 @@ fetch(url)
             img = createNode('img'),
             span = createNode('span');
     })
+*/
