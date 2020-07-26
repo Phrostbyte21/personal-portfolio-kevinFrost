@@ -148,9 +148,13 @@ i:hover {
   width: 60%;
 }
 
-.swul {
+.swulDiv {
   display: flex;
   width: 100%;
+}
+
+.swul {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 767px) {
