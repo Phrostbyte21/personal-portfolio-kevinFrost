@@ -143,13 +143,14 @@ i:hover {
 }
 
 #starwars {
-    background-image: url("https://i.imgur.com/GJTlhXU.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: auto 100%;
-    background-color: black;
-    color: white;
+  background-image: url("https://i.imgur.com/GJTlhXU.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-color: black;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
 }
 
 .starwars-div {
